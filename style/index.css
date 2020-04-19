@@ -1,20 +1,59 @@
 *{
     box-sizing: border-box;
 }
-.outer{
+body{
+    margin: 0;
+    padding: 0;
+}
+
+.content{
     position: relative;
-    left: 80px;
-    top: 40px;
-    width: 300px;
-    height: 100px;
+    top: 15px;
+    left: 20px;
+    width: 250px;
+    height: 180px;
+    background-color: #eee;
     border: 1px solid #ccc;
 }
 
-.inner{
+.redBlock{
     position: absolute;
-    left: 80px;
-    top: 40px;
-    width: 50px;
-    height: 50px;
-    background-color: rgba(128, 0, 0, 0.5);
+    top: 20px;
+    left: 50px;
+    width: 80px;
+    height: 80px;
+    background-color: red;
 }
+
+.blueBlock{
+    position: absolute;
+    top: 80px;
+    left: 80px;
+    width: 80px;
+    height: 80px;
+    background-color: blue;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
